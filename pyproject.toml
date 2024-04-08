@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "indic-llm-eval"
+version = "0.1.0"
+description = "Tools and Datasets for Indic LLM Evaluation"
+authors = ["NirantK <nirant.bits@gmail.com>"]
+license = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.36.2"
+modal = "^0.56.4390"
+torch = "^2.1.2"
+datasets = "^2.16.1"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.9"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
